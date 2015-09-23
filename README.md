@@ -1,4 +1,4 @@
-# _Course Roster_
+# _SELF-HELP-LIFE-SITE_
 
 ##### Epicodus exercise 9/23/2015_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_An app that allows the user to add courses and its students._
+_An app that allows the users and experts to add advice categories, add questions to those categories, and add answers to those questions._
 
 ## Setup
 
