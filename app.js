@@ -18,4 +18,10 @@ selfHelpLifeSite.config(function($stateProvider, $urlRouterProvider) {
     controller: 'QuestionsCtrl'
   });
 
+  $stateProvider.state('topics.questions.answers', {
+    url: "/:questionId",
+    templateUrl: "partials/topics.questions.answers.html",
+    controller: 'AnswersCtrl'
+  });
+
 });
