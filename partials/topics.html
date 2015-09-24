@@ -1,12 +1,3 @@
-<div ng-show="topics.length">
-  <h1>Here are your topics:</h1>
-  <ul>
-    <li ng-repeat="item in topics">
-      <a ui-sref="topics.questions({ topicId: item.id })">{{ item.name }}</a>
-    </li>
-  </ul>
-</div>
-
 <div class="col-md-4">
   <h3>SUBMIT NEW TOPIC</h3>
   <form ng-submit="TopicsFactory.addTopic()" class="form-inline" role="form">
@@ -16,6 +7,15 @@
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
+</div>
+
+<div ng-show="topics.length">
+  <h1>Here are your topics:</h1>
+  <ul>
+    <li ng-repeat="item in topics">
+      <a ui-sref="topics.questions({ topicId: item.id })">{{ item.name }}</a>
+    </li>
+  </ul>
 </div>
 
 <div ui-view> </div>
