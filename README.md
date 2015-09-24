@@ -1,6 +1,6 @@
 # _SELF-HELP-LIFE-SITE_
 
-##### Epicodus exercise 9/23/2015_
+##### Epicodus exercise 9/23/2015 - 9/24/2015_
 
 #### By Nathan Young and Annie Hoogendoorn
 
