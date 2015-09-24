@@ -5,8 +5,6 @@ selfHelpLifeSite.controller('QuestionsCtrl', function QuestionsCtrl($scope, $sta
                                   id: $scope.topic.questions.length + 1,
                                   answers: []
                                   });
-                                  console.log($scope.topic.questions);
-
     $scope.questionName = null;
   }
 });

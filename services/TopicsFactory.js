@@ -8,9 +8,5 @@ selfHelpLifeSite.factory('TopicsFactory', function TopicsFactory() {
     factory.topicName = null;
   };
 
-  // factory.addQuestion = function() {
-  //   factory.topics.
-  // }
-
   return factory;
 });
