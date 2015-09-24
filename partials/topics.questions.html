@@ -1,5 +1,5 @@
 <div>
-  <h2>ADD QUESTION TO {{ topic.name }}</h2>
+  <h3>Add a question to the {{ topic.name }} topic</h3>
   <form ng-submit="addQuestion()" class="form-inline" role="form">
     <div class="form-group">
       <input type="text" ng-model="questionName" class="form-control"
@@ -10,7 +10,7 @@
 </div>
 
 <div ng-show="topic.questions.length">
-  <h2>Questions for {{ topic.name }}</h2>
+  <h3>Questions for the {{ topic.name }} topic</h3>
   <ul>
     <li ng-repeat="item in topic.questions">
       <a ui-sref="topics.questions.answers({ questionId: item.id })">{{ item.name}}</a>

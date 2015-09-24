@@ -1,16 +1,14 @@
-<div class="col-md-4">
-  <h3>SUBMIT NEW TOPIC</h3>
-  <form ng-submit="TopicsFactory.addTopic()" class="form-inline" role="form">
-    <div class="form-group">
-      <input type="text" ng-model="TopicsFactory.topicName" class="form-control"
-        placeholder="Enter a topic name">
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
-</div>
+<h3>Submit new topic</h3>
+<form ng-submit="TopicsFactory.addTopic()" class="form-inline" role="form">
+  <div class="form-group">
+    <input type="text" ng-model="TopicsFactory.topicName" class="form-control"
+      placeholder="Enter a topic name">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 
 <div ng-show="topics.length">
-  <h1>Here are your topics:</h1>
+  <h4>Here are your topics:</h4>
   <ul>
     <li ng-repeat="item in topics">
       <a ui-sref="topics.questions({ topicId: item.id })">{{ item.name }}</a>
